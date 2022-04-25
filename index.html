@@ -323,9 +323,46 @@
         </address>
       </div>
     </section>
-    <!-- <section id="join-us" class="join-us">
-
-    </section> -->
+    <section id="join-us" class="join-us section-offset">
+      <div class="container">
+        <h2 class="section-title join-us-title">
+          Join&nbsp;us
+        </h2>
+        <p class="section-descr join-us-descr">
+          Take control of&nbsp;your paid subscriptions today!
+        </p>
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <div class="form-top flex">
+            <div class="form-top-left flex">
+              <input class="form-input" type="text" name="name" placeholder="Name" required>
+              <input class="form-input" type="email" name="email" placeholder="E-mail" required>
+              <input class="form-input" type="tel" name="phone" placeholder="Phone" required>
+              <select class="form-select" name="country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form-top-right">
+              <textarea class="form-textarea" name="comment" placeholder="Comment"></textarea>
+            </div>
+          </div>
+          <div class="form-bottom flex">
+            <div class="form-bottom-wrapper flex">
+              <button class="btn btn-reset form-btn">Get Started</button>
+              <label class="form-check">
+                <input class="form-check-input" type="checkbox" required>
+                I&nbsp;agree with the <a class="form-check-link" href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
