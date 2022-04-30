@@ -201,6 +201,10 @@ body {
  opacity: 0;
 }
 
+.btn:disabled {
+  background-color: #C4C4C4;
+}
+
 /* hero */
 .hero {
   padding: 113px 0 134px;
@@ -347,6 +351,59 @@ body {
   overflow: hidden;
   border: 1px solid #E4E4E4;
   border-radius: 5px;
+}
+
+.blog-preview-link {
+  position: relative;
+  width: 100%;
+}
+
+.blog-preview-link:focus {
+  background-color: #71A7E2;
+}
+
+.blog-preview-link:focus .blog-preview-title {
+  color: #FFF;
+}
+
+.blog-preview-link:focus .blog-preview-descr {
+  color: #FFF;
+}
+
+.blog-preview-link:focus .blog-preview-time {
+  color: #FFF;
+}
+
+.blog-preview-link:hover {
+  background-color: #3172B9;
+}
+
+.blog-preview-link:hover .blog-preview-title {
+  color: #FFF;
+}
+
+.blog-preview-link:hover .blog-preview-descr {
+  color: #FFF;
+}
+
+.blog-preview-link:hover .blog-preview-time {
+  color: #FFF;
+}
+
+.blog-preview-link:active {
+  background-color: #0E3B6C;
+}
+
+.blog-preview-link:active .blog-preview-title {
+  color: #FFF;
+}
+
+.blog-preview-link:active .blog-preview-descr {
+  color: #FFF;
+}
+
+.blog-preview-link:active .blog-preview-time {
+  color: #FFF;
 }
 
 .blog-preview-image {
@@ -503,6 +560,19 @@ body {
   color: #787878;
 }
 
+.contacts-item-link:focus {
+  outline: 1px solid #71A7E2;
+}
+
+.contacts-item-link:hover {
+  color: #71A7E2;
+}
+
+.contacts-item-link:active {
+  outline: none;
+  color: #0E3B6C;
+}
+
 /* join-us */
 .join-us {
   border-bottom: 1px solid #DADADA;
@@ -545,6 +615,20 @@ body {
   margin-bottom: 19px;
 }
 
+.form-input:focus {
+  background: rgba(113, 167, 226, 0.2);
+  border-color: #71A7E2;
+  outline: none;
+}
+
+.form-input:hover {
+  border-color: #71A7E2;
+}
+
+.form-input:active {
+  border-color: #0E3B6C;
+}
+
 .form-select {
   width: 251px;
   height: 60px;
@@ -552,6 +636,20 @@ body {
   border: 1px solid #DADADA;
   border-radius: 50px;
   opacity: 0.6;
+}
+
+.form-select:focus {
+  background: rgba(113, 167, 226, 0.2);
+  border-color: #71A7E2;
+  outline: none;
+}
+
+.form-select:hover {
+  border-color: #71A7E2;
+}
+
+.form-select:active {
+  border-color: #0E3B6C;
 }
 
 .form-top-right {
@@ -566,6 +664,20 @@ body {
   border: 1px solid #DADADA;
   border-radius: 20px;
   opacity: 0.6;
+}
+
+.form-textarea:focus {
+  background: rgba(113, 167, 226, 0.2);
+  border-color: #71A7E2;
+  outline: none;
+}
+
+.form-textarea:hover {
+  border-color: #71A7E2;
+}
+
+.form-textarea:active {
+  border-color: #0E3B6C;
 }
 
 .form-bottom {
