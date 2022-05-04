@@ -128,6 +128,7 @@ body {
   font-weight: 600;
   font-size: 15px;
   color: #1C1C1C;
+  transition: color 0.2s ease-in-out;
 }
 
 .header-link:focus {
@@ -149,6 +150,7 @@ body {
   height: 2px;
   background-color: #3474BA;
   opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .header-link:active {
@@ -170,6 +172,7 @@ body {
   text-transform: uppercase;
   color: #FFF;
   background-color: #3172B9;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .btn::after {
@@ -183,6 +186,7 @@ body {
   border-radius: inherit;
   outline: none;
   opacity: 0;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .btn:focus::after {
@@ -281,6 +285,7 @@ body {
   padding: 60px 30px;
   border: 1px solid #E4E4E4;
   border-radius: 5px;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .services-item:not(:nth-child(4n)) {
@@ -295,6 +300,7 @@ body {
 .services-item-icon {
   margin-bottom: 25px;
   fill: #3172B9;
+  transition: fill 0.2s ease-in-out;
 }
 
 .services-item:hover .services-item-icon {
@@ -308,6 +314,7 @@ body {
   font-size: 20px;
   line-height: 130%;
   color: #1C1C1C;
+  transition: color 0.2s ease-in-out;
 }
 
 .services-item:hover .services-item-title {
@@ -320,6 +327,7 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #787878;
+  transition: color 0.2s ease-in-out;
 }
 
 .services-item:hover .services-item-descr {
@@ -353,6 +361,7 @@ body {
 .blog-preview-link {
   position: relative;
   width: 100%;
+  transition: color 0.2s ease-in-out;
 }
 
 .blog-preview-link:focus {
@@ -417,6 +426,7 @@ body {
   font-size: 10px;
   line-height: 150%;
   color: #787878;
+  transition: color 0.2s ease-in-out;
 }
 
 .blog-preview-title {
@@ -426,6 +436,7 @@ body {
   font-size: 20px;
   line-height: 130%;
   color: #1C1C1C;
+  transition: color 0.2s ease-in-out;
 }
 
 .blog-preview-descr {
@@ -434,6 +445,7 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #787878;
+  transition: color 0.2s ease-in-out;
 }
 
 /* clients */
@@ -555,6 +567,7 @@ body {
   font-size: 14px;
   line-height: 180%;
   color: #787878;
+  transition: color 0.2s ease-in-out;
 }
 
 .contacts-item-link:focus {
@@ -606,6 +619,7 @@ body {
   border: 1px solid #DADADA;
   border-radius: 50px;
   opacity: 0.6;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .form-input:nth-child(-n+2) {
@@ -633,6 +647,7 @@ body {
   border: 1px solid #DADADA;
   border-radius: 50px;
   opacity: 0.6;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .form-select:focus {
@@ -661,6 +676,7 @@ body {
   border: 1px solid #DADADA;
   border-radius: 20px;
   opacity: 0.6;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .form-textarea:focus {
@@ -739,6 +755,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #787878;
+  transition: color 0.2s ease-in-out;
 }
 
 .footer-item:not(:last-child) {
@@ -764,6 +781,7 @@ body {
   height: 2px;
   background-color: #3474BA;
   opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .footer-link:active {
@@ -793,6 +811,7 @@ body {
 
 .social-link svg {
   fill: #000;
+  transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out;
 }
 
 .social-link-mail svg {
