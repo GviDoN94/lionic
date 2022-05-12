@@ -132,12 +132,12 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.nav__link:focus {
+.nav__link:focus-visible {
   outline: 1px solid #71A7E2;
   outline-offset: 3px;
 }
 
-.nav__link:hover {
+.nav__link:hover:not(:focus-visible)  {
   color: #71A7E2;
 }
 
@@ -153,7 +153,7 @@ body {
   transition: opacity 0.2s ease-in-out;
 }
 
-.nav__link:active {
+.nav__link:active:not(:focus-visible)  {
   outline: none;
   color: #3172B9;
 }
@@ -193,11 +193,11 @@ body {
   opacity: 1;
 }
 
-.btn:hover {
+.btn:hover:not(:focus-visible)  {
   background-color: #71A7E2;
 }
 
-.btn:active {
+.btn:active:not(:focus-visible)  {
   background-color: #0E3B6C;
 }
 
@@ -292,7 +292,7 @@ body {
   margin-right: 30px;
 }
 
-.card-list__item:hover {
+.card-list__item:hover:not(:focus-visible)  {
   background-color: #3172B9;
   border-color: #3172B9;
 }
@@ -303,7 +303,7 @@ body {
   transition: fill 0.2s ease-in-out;
 }
 
-.card-list__item:hover .card-list__icon {
+.card-list__item:hover:not(:focus-visible)  .card-list__icon {
   fill: #FFF;
 }
 
@@ -317,7 +317,7 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.card-list__item:hover .card-list__title {
+.card-list__item:hover:not(:focus-visible)  .card-list__title {
   color: #FFF;
 }
 
@@ -330,7 +330,7 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.card-list__item:hover .card-list__descr {
+.card-list__item:hover:not(:focus-visible)  .card-list__descr {
   color: #FFF;
 }
 
@@ -364,51 +364,51 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.blog-preview__link:focus {
+.blog-preview__link:focus-visible {
   background-color: #71A7E2;
 }
 
-.blog-preview__link:focus .blog-preview__title {
+.blog-preview__link:focus-visible .blog-preview__title {
   color: #FFF;
 }
 
-.blog-preview__link:focus .blog-preview__descr {
+.blog-preview__link:focus-visible .blog-preview__descr {
   color: #FFF;
 }
 
-.blog-preview__link:focus .blog-preview__time {
+.blog-preview__link:focus-visible .blog-preview__time {
   color: #FFF;
 }
 
-.blog-preview__link:hover {
+.blog-preview__link:hover:not(:focus-visible)  {
   background-color: #3172B9;
 }
 
-.blog-preview__link:hover .blog-preview__title {
+.blog-preview__link:hover:not(:focus-visible)  .blog-preview__title {
   color: #FFF;
 }
 
-.blog-preview__link:hover .blog-preview__descr {
+.blog-preview__link:hover:not(:focus-visible)  .blog-preview__descr {
   color: #FFF;
 }
 
-.blog-preview__link:hover .blog-preview__time {
+.blog-preview__link:hover:not(:focus-visible)  .blog-preview__time {
   color: #FFF;
 }
 
-.blog-preview__link:active {
+.blog-preview__link:active:not(:focus-visible)  {
   background-color: #0E3B6C;
 }
 
-.blog-preview__link:active .blog-preview__title {
+.blog-preview__link:active:not(:focus-visible)  .blog-preview__title {
   color: #FFF;
 }
 
-.blog-preview__link:active .blog-preview__descr {
+.blog-preview__link:active:not(:focus-visible)  .blog-preview__descr {
   color: #FFF;
 }
 
-.blog-preview__link:active .blog-preview__time {
+.blog-preview__link:active:not(:focus-visible)  .blog-preview__time {
   color: #FFF;
 }
 
@@ -573,15 +573,15 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
-.contacts__link:focus {
+.contacts__link:focus-visible {
   outline: 1px solid #71A7E2;
 }
 
-.contacts__link:hover {
+.contacts__link:hover:not(:focus-visible)  {
   color: #71A7E2;
 }
 
-.contacts__link:active {
+.contacts__link:active:not(:focus-visible)  {
   outline: none;
   color: #0E3B6C;
 }
@@ -629,17 +629,17 @@ body {
   margin-bottom: 19px;
 }
 
-.form__input:focus {
+.form__input:focus-visible {
   background: rgba(113, 167, 226, 0.2);
   border-color: #71A7E2;
   outline: none;
 }
 
-.form__input:hover {
+.form__input:hover:not(:focus-visible)  {
   border-color: #71A7E2;
 }
 
-.form__input:active {
+.form__input:active:not(:focus-visible)  {
   border-color: #0E3B6C;
 }
 
@@ -653,17 +653,17 @@ body {
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-.form__select:focus {
+.form__select:focus-visible {
   background: rgba(113, 167, 226, 0.2);
   border-color: #71A7E2;
   outline: none;
 }
 
-.form__select:hover {
+.form__select:hover:not(:focus-visible)  {
   border-color: #71A7E2;
 }
 
-.form__select:active {
+.form__select:active:not(:focus-visible)  {
   border-color: #0E3B6C;
 }
 
@@ -682,17 +682,17 @@ body {
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-.form__textarea:focus {
+.form__textarea:focus-visible {
   background: rgba(113, 167, 226, 0.2);
   border-color: #71A7E2;
   outline: none;
 }
 
-.form__textarea:hover {
+.form__textarea:hover:not(:focus-visible)  {
   border-color: #71A7E2;
 }
 
-.form__textarea:active {
+.form__textarea:active:not(:focus-visible)  {
   border-color: #0E3B6C;
 }
 
@@ -786,25 +786,25 @@ body {
   stroke: #000;
 }
 
-.social__link:focus {
+.social__link:focus-visible {
   outline-offset: 2px;
   outline: 1px solid #71A7E2;
 }
 
-.social__img:hover {
+.social__img:hover:not(:focus-visible)  {
   fill: #71A7E2;
 }
 
-.social__img_mail:hover {
+.social__img_mail:hover:not(:focus-visible)  {
   fill: transparent;
   stroke: #71A7E2;
 }
 
-.social__img:active {
+.social__img:active:not(:focus-visible)  {
   fill: #3172B9;
 }
 
-.social__img_mail:active {
+.social__img_mail:active:not(:focus-visible)  {
   fill: transparent;
   stroke: #3172B9;
 }
