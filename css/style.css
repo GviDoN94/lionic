@@ -52,7 +52,7 @@ img {
 }
 
 body {
-  max-width: 3840px;
+  max-width: 1540px;
   min-width: 320px;
   margin: 0 auto;
   background-color: #FFF;
@@ -85,7 +85,7 @@ body {
 
 .section-title {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
   font-weight: 300;
   font-size: 36px;
   line-height: 130%;
@@ -107,7 +107,7 @@ body {
 
 /* header */
 .header {
-  padding: 36px 0;
+  padding: 36px 0 28px;
   border-bottom: 1px solid #C4C4C4;
   background-color: #fff;
 }
@@ -238,6 +238,7 @@ body {
 }
 
 .hero__descr {
+  max-width: 471px;
   margin: 0;
   margin-bottom: 34px;
   font-size: 16px;
@@ -275,10 +276,12 @@ body {
 }
 
 .services__title {
+  margin-bottom: 21px;
   text-align: center;
 }
 
 .services__descr {
+  margin-bottom: 54px;
   text-align: center;
 }
 
@@ -302,7 +305,7 @@ body {
 }
 
 .card-list__icon {
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   fill: #3172B9;
   transition: fill 0.2s ease-in-out;
 }
@@ -424,12 +427,11 @@ body {
 }
 
 .blog-preview__text {
-  padding: 30px;
+  padding: 23px 30px;
 }
 
 .blog-preview__time {
   display: block;
-  margin-bottom: 5px;
   font-size: 10px;
   line-height: 150%;
   color: #787878;
@@ -485,7 +487,8 @@ body {
 .client {
   align-items: center;
   width: 100%;
-  padding-top: 28px;
+  padding-top: 26px;
+  padding-left: 4px;
 }
 
 .client_grey-line {
@@ -505,14 +508,14 @@ body {
   border-radius: 100%;
 }
 
-.clients__name {
+.client__name {
   font-weight: 600;
   font-size: 17px;
-  line-height: 180%;
+  line-height: 120%;
    color: #1C1C1C;
 }
 
-.clients__post {
+.client__post {
   font-size: 14px;
   line-height: 180%;
   color: #787878;
@@ -533,7 +536,7 @@ body {
 
 .contacts__item {
   flex-direction: column;
-  width: calc((100% - (var(--gap) *2 )) /3 );
+  width: max-content;
   padding-top: 48px;
   background-position: top left;
   background-repeat: no-repeat;
@@ -542,10 +545,12 @@ body {
 
 .contacts-item-address{
   background-image: url('../img/location.svg');
+  margin-right: 186px;
 }
 
 .contacts-item-phone{
   background-image: url('../img/phone.svg');
+  margin-right: 279px;
 }
 
 .contacts-item-mail{
@@ -595,10 +600,12 @@ body {
 
 /* join-us */
 .join-us {
+  padding-bottom: 122px;
   border-bottom: 1px solid #DADADA;
 }
 
 .join-us__title {
+  margin-bottom: 22px;
   text-align: center;
 }
 
