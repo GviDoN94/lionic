@@ -190,7 +190,7 @@ body {
   border-radius: inherit;
   outline: none;
   opacity: 0;
-  transition: background-color 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .btn:focus-visible::after {
@@ -368,7 +368,7 @@ body {
 .blog-preview__link {
   position: relative;
   width: 100%;
-  transition: color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .blog-preview__link:focus-visible {
