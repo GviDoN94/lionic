@@ -3,6 +3,10 @@
   .form__select {
     width: 100%;
   }
+
+  .form__input {
+    margin-bottom: 19px;
+  }
 }
 
 @media (max-width: 992px) {
