@@ -212,6 +212,10 @@ body {
   background-color: #C4C4C4;
 }
 
+.burger {
+  display: none;
+}
+
 /* hero */
 .hero {
   padding: 113px 0 134px;
