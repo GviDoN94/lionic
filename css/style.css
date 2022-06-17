@@ -547,18 +547,23 @@ body {
   background-size: 29px 29px;
 }
 
+.contacts__item:not(:last-child) {
+  margin-right: var(--gap);
+}
+
 .contacts-item-address{
   background-image: url('../img/location.svg');
-  margin-right: 186px;
+  width: 32%;
 }
 
 .contacts-item-phone{
   background-image: url('../img/phone.svg');
-  margin-right: 279px;
-}
+  width: 31%;
+  }
 
 .contacts-item-mail{
   background-image: url('../img/mail.svg');
+  width: 31%
 }
 
 .contacts-item:not(:nth-child(3n)) {
