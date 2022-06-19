@@ -307,4 +307,54 @@
   .contacts {
     padding-bottom: 29px;
   }
+
+  .join-us__descr {
+    margin-bottom: 37px;
+  }
+
+  .form__top {
+    flex-wrap: wrap;
+    margin-bottom: var(--gap);
+  }
+
+  .form__top-left,
+  .form__top-right {
+    width: 100%;
+  }
+
+  .form__input:not(:last-child) {
+    margin-bottom: var(--gap);
+  }
+
+  .form__input {
+    padding: 0 19px;
+  }
+
+  .form__select {
+    margin-bottom: var(--gap);
+    padding: 0 var(--gap);
+  }
+
+  .form__textarea {
+    min-height: 236px;
+    padding: 16px 19px;
+  }
+
+  .form__bottom {
+    justify-content: center;
+  }
+
+  .form__bottom-wrapper {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 100%;
+    margin-bottom: var(--gap);
+    padding: 22px 0;
+  }
+
+  .join-us {
+    padding-bottom: 58px;
+  }
 }
