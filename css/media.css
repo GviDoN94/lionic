@@ -267,4 +267,22 @@
   .blog-preview__title {
     margin-bottom: 3px;
   }
+
+  .clients-list__item {
+    width: 100%;
+    padding-bottom: 17px;
+  }
+
+  .clients-list__descr {
+    margin-bottom: 31px;
+    line-height: 178%;
+  }
+
+  .client {
+    padding: 29px 0 0;
+  }
+
+  .clients {
+    padding-bottom: 45px;
+  }
 }
