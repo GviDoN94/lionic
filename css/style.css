@@ -461,6 +461,10 @@ body {
   transition: color 0.2s ease-in-out;
 }
 
+.articles__center {
+  display: none;
+}
+
 /* clients */
 .clients {
   border-bottom: 1px solid #DADADA;
